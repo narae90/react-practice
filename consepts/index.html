@@ -11,6 +11,9 @@
     <div>
         <button id="vjs-button">Click Me(VJS)</button>
     </div>
+    <!-- 1. 컴포넌트를 탑재할 영역-->
+    <h1>React</h1>
+    <div id ="root"></div>
     
 
 <script>
@@ -19,8 +22,17 @@
         let btn = document.getElementById("vjs-button");
         btn.addEventListener("click", event => {
             alert(event.target.innerText);
-        })
+        });
     })
 </script>
+
+<!-- 2. React Library Script-->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+<!-- 3. Babel 번역기를 페이지에 포함-->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel" src="./js/index.js"></script>
 </body>
 </html>
