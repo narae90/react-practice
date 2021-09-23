@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import App from './App.props';
+// import App from './App.props';   // Props 테스트
+import App from './App.state';      // state 테스트
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
