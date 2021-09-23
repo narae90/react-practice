@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-import Item from './component/item';
+import Item from './component/Item';
 
 //  다수의 컴포넌트 렌더링
 const items = [
