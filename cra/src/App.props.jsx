@@ -1,6 +1,6 @@
 import React from 'react';
-import PropClass from './components/PropClass';
-import PropFunc from'./components/PropFunc';
+import PropClass from './component/PropClass';
+import PropFunc from './component/PropFunc';
 
 function App() {
     const messageFromChild = (message) => {
@@ -19,7 +19,10 @@ function App() {
                     age: 28
                 }} 
                 prop_func={ messageFromChild }
-                />
+                >
+                <h4>Children</h4>
+                <p>자식 컴포넌트</p>
+            </PropClass>
             <h2>Props in Function Component</h2>
             <PropFunc
                 prop_str="string value"
